@@ -19,7 +19,7 @@
     --info: #17a2b8;
     --warning: #ffc107;
     --danger: #dc3545;
-    --light: #f8f9fa;
+    --light: #f3f3f3;
     --dark: #343a40;
     --dark-yellow:#141103;
     
@@ -99,11 +99,15 @@ body{
     margin-top: 70px;
     padding: 0;
 }
+
 .one-left{
     width: 50%;
     padding-right: 30px;
     padding-left: 30px;
     
+}
+.mobile-img{
+    width: 200px;
 }
 .one-left-link{
     margin-top: 10px;
@@ -235,7 +239,7 @@ body{
 
 }
 .three-box-item:hover{
-    box-shadow:5px 5px 10px var(--orange) ;
+    box-shadow:5px 5px 10px var(--dark-yellow) ;
 }
 .three-box-item-top{
     height: 40px;
@@ -277,7 +281,7 @@ body{
 }
 
 .contact{
-  width: 100%;
+  width: 90%;
   background: var(--light);
   margin: 30px auto;
   padding: 20px 5px;
@@ -343,7 +347,7 @@ margin-bottom:2px;
     margin-bottom: 10px;
 }
 .four-box{
-    width: 50%;
+    width: 80%;
     border-radius: 20px;
     background: var(--light);
     box-shadow: 1px 1px 10px var(--secondary);
@@ -354,7 +358,7 @@ margin-bottom:2px;
 
 }
 .four-box:hover{
-    box-shadow: 10px 5px 20px var(--indigo);
+    box-shadow: 1px 1px 5px var(--indigo);
 }
 .four-box h5{
     margin-top: 10px;
